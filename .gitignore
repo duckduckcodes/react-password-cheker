@@ -4,6 +4,7 @@ node_modules
 
 # builds
 build
+.parcel-cache
 .rpt2_cache
 
 # misc
