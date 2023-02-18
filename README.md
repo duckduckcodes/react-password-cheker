@@ -1,10 +1,5 @@
 # react-password-Cheker👽
 
-## Install
-
-```bash
-npm install --save react-password-cheker
-```
 
 ## Usage ✍️
 
