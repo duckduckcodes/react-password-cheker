@@ -1,6 +1,6 @@
-import React from 'react'
-import styles from './styles.module.css'
+import { useState, useEffect } from 'react'
+import { usePassword } from './hooks/usePassword'
+import { Rules, Match } from './components'
 
-export const ExampleComponent = ({ text }) => {
-  return <div className={styles.test}>Example Component: {text}</div>
-}
+export {  Rules, Match, usePassword }
+
