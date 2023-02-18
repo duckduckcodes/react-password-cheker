@@ -51,6 +51,7 @@
     "dist"
   ],
   "dependencies": {
+    "docsify-cli": "^4.4.4",
     "framer-motion": "^9.0.4"
   }
 }
