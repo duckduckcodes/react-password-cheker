@@ -3,7 +3,7 @@
 ## Install
 
 ```bash
-npm install --save react-password-checker
+npm install --save react-password-cheker
 ```
 
 ## Usage ✍️
@@ -148,6 +148,10 @@ function SignupForm() {
 
 
 !> in both `<Rules />` and `<Match />`, you should pass `isActive` proprety,which you can get by using `onFocus` and `onBlur` on the input elemnt, otherwise the components won't be displayed.
+
+
+![part1](_media/part1.gif)
+![part2](_media/part2.gif)
 
 !> `<Rules />` and `<Match />` should have the same display proprety. Default is `color`.
 

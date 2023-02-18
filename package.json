@@ -1,10 +1,13 @@
 {
-  "name": "react-password-checker",
+  "name": "react-password-cheker",
   "version": "1.0.0",
-  "description": "a library that let you check and validate your passwords",
+  "description": "React Password Checker is a simple and lightweight library that helps you validate and check passwords in your React applications",
   "author": "duckduckcodes",
   "license": "MIT",
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/duckduckcodes/react-password-checker"
+  },
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
