@@ -1,4 +1,4 @@
-# react-password-Checker👽
+# react-password-Cheker👽
 
 ## Install
 
@@ -8,7 +8,7 @@ npm install --save react-password-cheker
 
 ## Usage ✍️
 
-##### React Password Checker is a simple and lightweight library that helps you validate and check passwords in your React applications. It provides two components: <Rules /> and <Match /> that can be easily added to your password form.
+##### React Password Cheker is a simple and lightweight library that helps you validate and check passwords in your React applications. It provides two components: <Rules /> and <Match /> that can be easily added to your password form.
 
 ![cool](https://media1.giphy.com/media/26ufdipQqU2lhNA4g/giphy.gif?cid=ecf05e476bvlang11a1310rrvuzs75902v6uw7ys4so091pc&rid=giphy.gif&ct=g)
 
@@ -19,7 +19,7 @@ npm install --save react-password-cheker
 ### import:
 
 ```js
-import { Rules } from 'react-password-checker'
+import { Rules } from 'react-password-cheker'
 ```
 
 The <Rules /> component helps you show the password validation rules to the user while they are typing in their password. It takes the following props:
@@ -42,7 +42,7 @@ Here's an example of how to use the `<Rules />` component in your password form:
 
 ```js
 import { useState } from 'react'
-import { Rules } from 'react-password-checker'
+import { Rules } from 'react-password-cheker'
 
 function PasswordForm() {
   const [password, setPassword] = useState('')
@@ -86,7 +86,7 @@ function PasswordForm() {
 ### import:
 
 ```js
-import { Match } from 'react-password-checker'
+import { Match } from 'react-password-cheker'
 ```
 
 The <Match /> component helps you confirm whether the user has entered the correct password in a sign-up or password reset form. It takes the following props:
@@ -104,7 +104,7 @@ Here's an example of how to use the <Match /> component in your password form:
 
 ```js
 import { useState } from 'react';
-import { Match } from 'react-password-checker';
+import { Match } from 'react-password-cheker';
 
 function SignupForm() {
   const [password, setPassword] = useState('');
@@ -167,7 +167,7 @@ function SignupForm() {
 ### import:
 
 ```js
-import { usePassword } from 'react-password-checker'
+import { usePassword } from 'react-password-cheker'
 ```
 
 | proprety                     | Description                                                                    |
